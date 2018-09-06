@@ -1,74 +1,24 @@
-// add solution here
-var musicians = ["John Lennon","Paul McCartney", "Ringo Star","George Harrison"];
-
-var instruments= ["Guitar","Guitar","Drums","Bass"];
-
-function theBeatlesPlay(mus,inst){
-  var band=[];
-  for (var i = 0; i < mus.length; i++) {
-    band.push(mus[i] + " plays " + inst[i] )
-    
+function theBeatlesPlay(musicians,instruments){
+  var x = [];
+  var i;
+  for (i=0; i<musicians.length; i++){
+    x.push(musicians[i] + " plays " + instruments[i]);
   }
-  return band;
+  return x;
 }
-
-
-theBeatlesPlay(musicinas, instruments);
-
-const facts= [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
 
 function johnLennonFacts(facts){
-  var i = 0;
-  var factArray = [];
-  while (i < facts.length){
-    factArray.push(facts[i] + "!!!");
-    i++
-  }
-  return factArray;
+  var x=[];
+  var i=0;
+    x.push(facts[i] + "!!!");i++;
+  
+  while(
+    i< facts.length
+  );
+  return x;
 }
-
-johnLennonFacts(facts);
 
 function iLoveTheBeatles(number){
-  var empty=[];
-  var i = number;
-  do{
-    empty.push("I love the Beatles!");
-    i++;
-  }
-  while(
+  var x = []
   
-    i < 15
-    );
-    return empty;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
